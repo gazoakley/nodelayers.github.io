@@ -391,5 +391,26 @@
       "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:bluebird:1",
       "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:bluebird:1"
     }
+  },
+  "archiver": {
+    "description": "a streaming interface for archive generation",
+    "keywords": [
+      "archive",
+      "archiver",
+      "stream",
+      "zip",
+      "tar"
+    ],
+    "license": "MIT",
+    "version": "5.3.1",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:archiver:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:archiver:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:archiver:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:archiver:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:archiver:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:archiver:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:archiver:1"
+    }
   }
 }
