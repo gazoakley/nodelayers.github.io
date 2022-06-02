@@ -1,0 +1,29 @@
+[
+    {
+        "_links": [
+            {
+                "rel": "self",
+                "href": "/"
+            },
+            {
+                "ref": "urn:nodemodules:${Partition}:${Region}",
+                "href": "arn:${Partition}:lambda:${Region}:${Account}:layer:${LayerName}:{version}"
+            }
+        ],
+        "description": "Lodash modular utilities.",
+        "homepage": "https://lodash.com/",
+        "icon": "https://lodash.com/icon.svg",
+        "keywords": [
+            "modules",
+            "stdlib",
+            "util"
+        ],
+        "license": "MIT",
+        "name": "lodash",
+        "repository": {
+            "type": "git",
+            "url": "git+https://github.com/lodash/lodash.git"
+        },
+        "version": "4.17.21"
+    }
+]
