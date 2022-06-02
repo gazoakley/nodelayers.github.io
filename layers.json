@@ -288,5 +288,26 @@
       "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:fs-extra:1",
       "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:fs-extra:1"
     }
+  },
+  "underscore": {
+    "description": "JavaScript's functional programming helper library.",
+    "keywords": [
+      "util",
+      "functional",
+      "server",
+      "client",
+      "browser"
+    ],
+    "license": "MIT",
+    "version": "1.13.4",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:underscore:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:underscore:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:underscore:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:underscore:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:underscore:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:underscore:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:underscore:1"
+    }
   }
 }
