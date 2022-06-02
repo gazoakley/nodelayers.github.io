@@ -191,5 +191,27 @@
       "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:js-yaml:1",
       "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:js-yaml:1"
     }
+  },
+  "cheerio": {
+    "description": "Tiny, fast, and elegant implementation of core jQuery designed specifically for the server",
+    "keywords": [
+      "htmlparser",
+      "jquery",
+      "selector",
+      "scraper",
+      "parser",
+      "html"
+    ],
+    "license": "MIT",
+    "version": "1.0.0-rc.11",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:cheerio:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:cheerio:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:cheerio:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:cheerio:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:cheerio:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:cheerio:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:cheerio:1"
+    }
   }
 }
