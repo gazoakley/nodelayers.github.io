@@ -412,5 +412,43 @@
       "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:archiver:1",
       "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:archiver:1"
     }
+  },
+  "got": {
+    "description": "Human-friendly and powerful HTTP request library for Node.js",
+    "keywords": [
+      "http",
+      "https",
+      "http2",
+      "get",
+      "got",
+      "url",
+      "uri",
+      "request",
+      "simple",
+      "curl",
+      "wget",
+      "fetch",
+      "net",
+      "network",
+      "gzip",
+      "brotli",
+      "requests",
+      "human-friendly",
+      "axios",
+      "superagent",
+      "node-fetch",
+      "ky"
+    ],
+    "license": "MIT",
+    "version": "12.1.0",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:799416384551:layer:got:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:799416384551:layer:got:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:799416384551:layer:got:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:799416384551:layer:got:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:799416384551:layer:got:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:799416384551:layer:got:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:799416384551:layer:got:1"
+    }
   }
 }
