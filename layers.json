@@ -536,5 +536,24 @@
       "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:mjml:1",
       "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:mjml:1"
     }
+  },
+  "immer": {
+    "description": "Create your next immutable state by mutating the current one",
+    "keywords": [
+      "immutable",
+      "mutable",
+      "copy-on-write"
+    ],
+    "license": "MIT",
+    "version": "9.0.14",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:immer:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:immer:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:immer:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:immer:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:immer:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:immer:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:immer:1"
+    }
   }
 }
