@@ -572,5 +572,41 @@
       "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:nodemailer:1",
       "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:nodemailer:1"
     }
+  },
+  "crypto-js": {
+    "description": "JavaScript library of crypto standards.",
+    "keywords": [
+      "security",
+      "crypto",
+      "Hash",
+      "MD5",
+      "SHA1",
+      "SHA-1",
+      "SHA256",
+      "SHA-256",
+      "RC4",
+      "Rabbit",
+      "AES",
+      "DES",
+      "PBKDF2",
+      "HMAC",
+      "OFB",
+      "CFB",
+      "CTR",
+      "CBC",
+      "Base64",
+      "Base64url"
+    ],
+    "license": "MIT",
+    "version": "4.1.1",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:crypto-js:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:crypto-js:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:crypto-js:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:crypto-js:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:crypto-js:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:crypto-js:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:crypto-js:1"
+    }
   }
 }
