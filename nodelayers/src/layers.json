@@ -1,0 +1,416 @@
+{
+  "moment": {
+    "description": "Parse, validate, manipulate, and display dates",
+    "keywords": [
+      "moment",
+      "date",
+      "time",
+      "parse",
+      "format",
+      "validate",
+      "i18n",
+      "l10n",
+      "ender"
+    ],
+    "license": "MIT",
+    "version": "2.29.3",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:moment:2",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:moment:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:moment:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:moment:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:moment:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:moment:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:moment:1"
+    }
+  },
+  "axios": {
+    "description": "Promise based HTTP client for the browser and node.js",
+    "keywords": [
+      "xhr",
+      "http",
+      "ajax",
+      "promise",
+      "node"
+    ],
+    "license": "MIT",
+    "version": "0.27.2",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:axios:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:axios:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:axios:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:axios:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:axios:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:axios:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:axios:1"
+    }
+  },
+  "node-fetch": {
+    "description": "A light-weight module that brings Fetch API to node.js",
+    "keywords": [
+      "fetch",
+      "http",
+      "promise",
+      "request",
+      "curl",
+      "wget",
+      "xhr",
+      "whatwg"
+    ],
+    "license": "MIT",
+    "version": "3.2.5",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:node-fetch:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:node-fetch:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:node-fetch:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:node-fetch:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:node-fetch:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:node-fetch:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:node-fetch:1"
+    }
+  },
+  "superagent": {
+    "description": "elegant & feature rich browser / node HTTP with a fluent API",
+    "keywords": [
+      "agent",
+      "ajax",
+      "ajax",
+      "api",
+      "async",
+      "await",
+      "axios",
+      "cancel",
+      "client",
+      "frisbee",
+      "got",
+      "http",
+      "http",
+      "https",
+      "ky",
+      "promise",
+      "promise",
+      "promises",
+      "request",
+      "request",
+      "requests",
+      "response",
+      "rest",
+      "retry",
+      "super",
+      "superagent",
+      "timeout",
+      "transform",
+      "xhr",
+      "xmlhttprequest"
+    ],
+    "license": "MIT",
+    "version": "7.1.6",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:superagent:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:superagent:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:superagent:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:superagent:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:superagent:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:superagent:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:superagent:1"
+    }
+  },
+  "uuid": {
+    "description": "RFC4122 (v1, v4, and v5) UUIDs",
+    "keywords": [
+      "uuid",
+      "guid",
+      "rfc4122"
+    ],
+    "license": "MIT",
+    "version": "8.3.2",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:uuid:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:uuid:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:uuid:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:uuid:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:uuid:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:uuid:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:uuid:1"
+    }
+  },
+  "debug": {
+    "description": "Lightweight debugging utility for Node.js and the browser",
+    "keywords": [
+      "debug",
+      "log",
+      "debugger"
+    ],
+    "license": "MIT",
+    "version": "4.3.4",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:debug:16",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:debug:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:debug:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:debug:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:debug:8",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:debug:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:debug:1"
+    }
+  },
+  "lodash": {
+    "description": "Lodash modular utilities.",
+    "keywords": [
+      "modules",
+      "stdlib",
+      "util"
+    ],
+    "license": "MIT",
+    "version": "4.17.21",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:lodash:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:lodash:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:lodash:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:lodash:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:lodash:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:lodash:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:lodash:1"
+    }
+  },
+  "js-yaml": {
+    "description": "YAML 1.2 parser and serializer",
+    "keywords": [
+      "yaml",
+      "parser",
+      "serializer",
+      "pyyaml"
+    ],
+    "license": "MIT",
+    "version": "4.1.0",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:js-yaml:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:js-yaml:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:js-yaml:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:js-yaml:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:js-yaml:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:js-yaml:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:js-yaml:1"
+    }
+  },
+  "cheerio": {
+    "description": "Tiny, fast, and elegant implementation of core jQuery designed specifically for the server",
+    "keywords": [
+      "htmlparser",
+      "jquery",
+      "selector",
+      "scraper",
+      "parser",
+      "html"
+    ],
+    "license": "MIT",
+    "version": "1.0.0-rc.11",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:cheerio:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:cheerio:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:cheerio:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:cheerio:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:cheerio:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:cheerio:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:cheerio:1"
+    }
+  },
+  "jszip": {
+    "description": "Create, read and edit .zip files with JavaScript http://stuartk.com/jszip",
+    "keywords": [
+      "zip",
+      "deflate",
+      "inflate"
+    ],
+    "license": "(MIT OR GPL-3.0-or-later)",
+    "version": "3.10.0",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:jszip:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:jszip:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:jszip:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:jszip:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:jszip:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:jszip:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:jszip:1"
+    }
+  },
+  "xml2js": {
+    "description": "Simple XML to JavaScript object converter.",
+    "keywords": [
+      "xml",
+      "json"
+    ],
+    "license": "MIT",
+    "version": "0.4.23",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:xml2js:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:xml2js:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:xml2js:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:xml2js:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:xml2js:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:xml2js:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:xml2js:1"
+    }
+  },
+  "fs-extra": {
+    "description": "fs-extra contains methods that aren't included in the vanilla Node.js fs package. Such as recursive mkdir, copy, and remove.",
+    "keywords": [
+      "fs",
+      "file",
+      "file system",
+      "copy",
+      "directory",
+      "extra",
+      "mkdirp",
+      "mkdir",
+      "mkdirs",
+      "recursive",
+      "json",
+      "read",
+      "write",
+      "extra",
+      "delete",
+      "remove",
+      "touch",
+      "create",
+      "text",
+      "output",
+      "move",
+      "promise"
+    ],
+    "license": "MIT",
+    "version": "10.1.0",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:fs-extra:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:fs-extra:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:fs-extra:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:fs-extra:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:fs-extra:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:fs-extra:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:fs-extra:1"
+    }
+  },
+  "underscore": {
+    "description": "JavaScript's functional programming helper library.",
+    "keywords": [
+      "util",
+      "functional",
+      "server",
+      "client",
+      "browser"
+    ],
+    "license": "MIT",
+    "version": "1.13.4",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:underscore:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:underscore:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:underscore:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:underscore:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:underscore:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:underscore:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:underscore:1"
+    }
+  },
+  "express": {
+    "description": "Fast, unopinionated, minimalist web framework",
+    "keywords": [
+      "express",
+      "framework",
+      "sinatra",
+      "web",
+      "http",
+      "rest",
+      "restful",
+      "router",
+      "app",
+      "api"
+    ],
+    "license": "MIT",
+    "version": "4.18.1",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:express:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:express:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:express:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:express:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:express:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:express:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:express:1"
+    }
+  },
+  "winston": {
+    "description": "A logger for just about everything.",
+    "keywords": [
+      "winston",
+      "logger",
+      "logging",
+      "logs",
+      "sysadmin",
+      "bunyan",
+      "pino",
+      "loglevel",
+      "tools",
+      "json",
+      "stream"
+    ],
+    "license": "MIT",
+    "version": "3.7.2",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:winston:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:winston:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:winston:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:winston:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:winston:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:winston:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:winston:1"
+    }
+  },
+  "bluebird": {
+    "description": "Full featured Promises/A+ implementation with exceptionally good performance",
+    "keywords": [
+      "promise",
+      "performance",
+      "promises",
+      "promises-a",
+      "promises-aplus",
+      "async",
+      "await",
+      "deferred",
+      "deferreds",
+      "future",
+      "flow control",
+      "dsl",
+      "fluent interface"
+    ],
+    "license": "MIT",
+    "version": "3.7.2",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:bluebird:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:bluebird:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:bluebird:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:bluebird:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:bluebird:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:bluebird:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:bluebird:1"
+    }
+  },
+  "archiver": {
+    "description": "a streaming interface for archive generation",
+    "keywords": [
+      "archive",
+      "archiver",
+      "stream",
+      "zip",
+      "tar"
+    ],
+    "license": "MIT",
+    "version": "5.3.1",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:archiver:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:archiver:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:archiver:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:archiver:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:archiver:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:archiver:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:archiver:1"
+    }
+  }
+}
