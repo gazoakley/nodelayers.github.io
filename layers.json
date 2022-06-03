@@ -719,5 +719,29 @@
       "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:serverless-http:1",
       "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:serverless-http:1"
     }
+  },
+  "ajv": {
+    "description": "Another JSON Schema Validator",
+    "keywords": [
+      "JSON",
+      "schema",
+      "validator",
+      "validation",
+      "jsonschema",
+      "json-schema",
+      "json-schema-validator",
+      "json-schema-validation"
+    ],
+    "license": "MIT",
+    "version": "8.11.0",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:ajv:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:ajv:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:ajv:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:ajv:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:ajv:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:ajv:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:ajv:1"
+    }
   }
 }
