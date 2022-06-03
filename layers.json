@@ -488,5 +488,20 @@
       "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:cuid:1",
       "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:cuid:1"
     }
+  },
+  "date-fns": {
+    "description": "Modern JavaScript date utility library",
+    "keywords": null,
+    "license": "MIT",
+    "version": "2.28.0",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:date-fns:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:date-fns:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:date-fns:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:date-fns:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:date-fns:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:date-fns:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:date-fns:1"
+    }
   }
 }
