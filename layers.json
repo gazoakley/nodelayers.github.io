@@ -651,5 +651,23 @@
       "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:node-forge:1",
       "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:node-forge:1"
     }
+  },
+  "graphql": {
+    "description": "A Query Language and Runtime which can target any service.",
+    "keywords": [
+      "graphql",
+      "graphql-js"
+    ],
+    "license": "MIT",
+    "version": "16.5.0",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:graphql:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:graphql:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:graphql:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:graphql:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:graphql:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:graphql:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:graphql:1"
+    }
   }
 }
