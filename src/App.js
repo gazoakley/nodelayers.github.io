@@ -91,7 +91,7 @@ class App extends React.Component {
 
         <main class="container mt-5">
           <div class="py-5 mb-4 border-bottom text-center ">
-            <h4 class="fw-light">Easily <span class="badge text-bg-light font-monospace">require()</span> NodeJS modules in AWS
+            <h4 class="fw-light">Easily <span class="badge text-bg-light font-monospace">import</span> NodeJS modules in AWS
               Lambda functions</h4>
             <h5 class="fw-light">Just copy the layer ARN and add to your function</h5>
           </div>
