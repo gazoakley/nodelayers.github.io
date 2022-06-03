@@ -521,5 +521,20 @@
       "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:luxon:1",
       "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:luxon:1"
     }
+  },
+  "mjml": {
+    "description": "MJML: the only framework that makes responsive-email easy",
+    "keywords": null,
+    "license": "MIT",
+    "version": "4.12.0",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:mjml:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:mjml:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:mjml:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:mjml:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:mjml:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:mjml:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:mjml:1"
+    }
   }
 }
