@@ -59,7 +59,7 @@ function Layer(props) {
   const { name, description, version, keywords, region, regions } = props;
   return (
     <div class="pb-4 mb-4 border-bottom">
-      <h5>{name} <span class="text-muted">@{version}</span></h5>
+      <h5><a href={`https://npmjs.com/package/${name}`}>{name}</a> <span class="text-muted">@{version}</span></h5>
       <p>{description}</p>
       <div class="mb-3">
         {keywords && keywords.map(keyword =>
@@ -87,7 +87,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <NLNavbar region={this.state.region} onRegionChange={this.handleRegionChange} /> */}
+        <NLNavbar region={this.state.region} onRegionChange={this.handleRegionChange} />
 
         <main class="container mt-5">
           <div class="py-5 mb-4 border-bottom text-center ">
@@ -105,7 +105,7 @@ class App extends React.Component {
 
         <div class="container">
           <footer class="pt-5 my-5 text-muted">
-            Made by <a class="text-decoration-none" href="https://www.twitter.com/gazoakley">@gazoakley</a>
+            Made by <a class="text-decoration-none" href="https://www.twitter.com/gazoakley">@gazoakley</a>. Inspired by <a class="text-decoration-none" href="https://github.com/keithrozario/Klayers">Klayers</a>.
           </footer>
         </div>
       </div>
