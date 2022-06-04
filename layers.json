@@ -788,5 +788,20 @@
       "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:vendia-serverless-express:1",
       "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:vendia-serverless-express:1"
     }
+  },
+  "@aws-sdk/client-s3": {
+    "description": "AWS SDK for JavaScript S3 Client for Node.js, Browser and React Native",
+    "keywords": null,
+    "license": "Apache-2.0",
+    "version": "3.100.0",
+    "_regions": {
+      "us-east-1": "arn:aws:lambda:us-east-1:225362856564:layer:aws-sdk-client-s3:1",
+      "us-east-2": "arn:aws:lambda:us-east-2:225362856564:layer:aws-sdk-client-s3:1",
+      "us-west-1": "arn:aws:lambda:us-west-1:225362856564:layer:aws-sdk-client-s3:1",
+      "us-west-2": "arn:aws:lambda:us-west-2:225362856564:layer:aws-sdk-client-s3:1",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:225362856564:layer:aws-sdk-client-s3:1",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:225362856564:layer:aws-sdk-client-s3:1",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:225362856564:layer:aws-sdk-client-s3:1"
+    }
   }
 }
