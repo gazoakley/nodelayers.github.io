@@ -1,6 +1,6 @@
 import React from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import { Form, Navbar, Container } from 'react-bootstrap';
+import { Form, Navbar, Container, Stack } from 'react-bootstrap';
 import ReactGA from "react-ga4";
 
 import './App.css';
@@ -63,6 +63,41 @@ class NLNavbar extends React.Component {
   }
 }
 
+class NLClipboardField extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleCopied = this.handleCopied.bind(this);
+    this.state = {
+      copied: false
+    };
+  }
+
+  handleCopied () {
+    ReactGA.event({
+      category: "navigation",
+      action: "select_content",
+      label: this.props.text,
+    });
+    setTimeout(() => {
+      this.setState({copied: false});
+    }, 2500);
+    this.setState({copied: true});
+  }
+
+  render () {
+    return (
+      <CopyToClipboard text={this.props.text} onCopy={this.handleCopied}>
+        <div class="Copy form-control p-1 bg-light font-monospace">
+          <Stack direction="horizontal">
+            <div>{this.props.text}</div>
+            <div className="ms-auto">{this.state.copied ? <span style={{color: 'red'}}>Copied</span> : null}</div>
+          </Stack>
+        </div>
+      </CopyToClipboard>
+    )
+  }
+}
+
 function Layer(props) {
   const { name, description, version, keywords, region, regions } = props;
   return (
@@ -74,9 +109,7 @@ function Layer(props) {
           <span class="badge text-bg-light">{keyword}</span>
         )}
       </div>
-      <CopyToClipboard text={regions && regions[region]}>
-        <span class="Copy form-control p-1 bg-dark text-light font-monospace">{regions && regions[region]}</span>
-      </CopyToClipboard>
+      <NLClipboardField text={regions && regions[region]}></NLClipboardField>
     </div>
   )
 }
