@@ -1,8 +1,16 @@
 import React from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { Form, Navbar, Container } from 'react-bootstrap';
+import ReactGA from "react-ga4";
 
 import './App.css';
+
+ReactGA.initialize([
+  {
+    trackingId: "G-WHCWXF4MFZ",
+  },
+]);
+
 const layers = require('./layers.json');
 
 const regions = {
